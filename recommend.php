@@ -13,6 +13,7 @@ class Recommend {
         {
             if(array_key_exists($key, $preferences[$person2]))
                 $similar[$key] = 1;
+            $nonsimilar[$!key] = 0;
         }
         
         if(count($similar) == 0)
